@@ -8,8 +8,7 @@ Prodrugs are easily deployable chemical entities with beneficial pharmacokinetic
 
 The associated publication is currently under review. 
 
-We would like to thank the Chemprop, XGBoost, Llama, MolGan, SmilesGPT, (add GRU), and the Scikit-learn developers for making their machine learning algorithms publicly available. 
-
+We would like to thank the Chemprop, XGBoost, Llama, MolGan, SmilesGPT, Molecule-RNN, and the Scikit-learn developers for making their machine learning algorithms publicly available. 
 
 ## Requirements
 * [RDKit](https://www.rdkit.org/docs/Install.html)
@@ -33,17 +32,17 @@ To use Chemprop with GPUs, you will need:
 
 ## Descriptions of Folders
 
-### Code
+### Exisiting_Prodrug_Analysis
 
-Python code to reproduce conclusions.
+Datasets and code to analyze the chemistries of currently approved and investigational prodrugs.
 
-### Datasets
+### Generative_Prodrug_Design
 
-Training datasets.
+Datasets and code to analyze novel prodrugs designed using generative models.
 
-### Results
+### DeepDelta_For_Large_Datasets
 
-Results from publication.
+Datasets and code to analyze subsampling strategies for efficiently applying the pair-wise DeepDelta approach to larger datasets (>1500 datapoints).
 
 <br />
 
