@@ -34,15 +34,15 @@ To use Chemprop with GPUs, you will need:
 
 ### Exisiting_Prodrug_Analysis
 
-Datasets and code to analyze the chemistries of currently approved and investigational prodrugs.
+Datasets, code worksheet, and results for the analysis of currently approved and investigational prodrugs (Supplementary Figure 1).
 
-### Generative_Prodrug_Design
+### Generative_Prodrug_Analysis
 
-Datasets and code to analyze novel prodrugs designed using generative models.
+Datasets, code worksheet, and results for the analysis of novel prodrugs designed using generative models (Figure 1).
 
 ### DeepDelta_For_Large_Datasets
 
-Datasets and code to analyze subsampling strategies for efficiently applying the pair-wise DeepDelta approach to larger datasets (>1500 datapoints).
+Datasets and code for subsampling strategies for efficient application of the pair-wise DeepDelta approach to larger datasets (>1500 datapoints).
 
 <br />
 
