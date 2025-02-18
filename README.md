@@ -8,7 +8,7 @@ Prodrugs are easily deployable chemical entities with beneficial pharmacokinetic
 
 The associated publication is currently under review. 
 
-We would like to thank the [Chemprop v1.5.2](https://github.com/chemprop/chemprop), [Llama](https://github.com/unslothai/unsloth), [Molecule-RNN](https://github.com/shiwentao00/Molecule-RNN), [SmilesGPT](https://github.com/sanjaradylov/smiles-gpt/tree/master), [MolGan](https://github.com/nicola-decao/MolGAN), and [Scikit-learn](https://github.com/scikit-learn/scikit-learn) developers for making their machine learning algorithms publicly available. 
+We would like to thank the [Chemprop](https://github.com/chemprop/chemprop), [Llama](https://github.com/unslothai/unsloth), [Molecule-RNN](https://github.com/shiwentao00/Molecule-RNN), [SmilesGPT](https://github.com/sanjaradylov/smiles-gpt/tree/master), [MolGan](https://github.com/nicola-decao/MolGAN), and [Scikit-learn](https://github.com/scikit-learn/scikit-learn) developers for making their machine learning algorithms publicly available. 
 
 <br />
 
