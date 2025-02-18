@@ -4,7 +4,7 @@
 
 ## Overview
 
-Prodrugs are easily deployable chemical entities with beneficial pharmacokinetic properties; however, their rational design requires careful crafting of release mechanisms and holistic optimization of pharmacokinetic properties. Machine learning is poised to support rational design of prodrugs by efficiently filtering millions of generated designs down to the most promising candidates. Here, we designed and validated a novel machine learning pipeline for rapid and systematic design of prodrugs with desired properties. We also developed a subsampling approach for efficient application of the pair-wise [DeepDelta](https://github.com/RekerLab/DeepDelta) approach to larger datasets (>1500 datapoints). 
+Prodrugs are easily deployable chemical entities with beneficial pharmacokinetic properties; however, their rational design requires careful crafting of release mechanisms and holistic optimization of pharmacokinetic properties. Machine learning is poised to support rational design of prodrugs by efficiently filtering millions of generated designs down to the most promising candidates. Here, we designed and validated a novel machine learning pipeline for rapid and systematic design of prodrugs with desired properties. We also developed a subsampling approach for efficient application of our pair-wise [DeepDelta](https://github.com/RekerLab/DeepDelta) approach to larger datasets (>1500 datapoints). 
 
 The associated publication is currently under review. 
 
