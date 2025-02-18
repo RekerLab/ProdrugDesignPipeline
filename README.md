@@ -4,33 +4,20 @@
 
 ## Overview
 
-Prodrugs are easily deployable chemical entities with beneficial pharmacokinetic properties; however, their rational design requires careful crafting of release mechanisms and holistic optimization of pharmacokinetic properties. Machine learning is poised to support rational design of prodrugs by efficiently filtering millions of generated designs down to the most promising candidates. Here, we designed and validated a novel machine learning pipeline for rapid and systematic design of prodrugs with desired properties.  
+Prodrugs are easily deployable chemical entities with beneficial pharmacokinetic properties; however, their rational design requires careful crafting of release mechanisms and holistic optimization of pharmacokinetic properties. Machine learning is poised to support rational design of prodrugs by efficiently filtering millions of generated designs down to the most promising candidates. Here, we designed and validated a novel machine learning pipeline for rapid and systematic design of prodrugs with desired properties. We also developed a subsampling approach for efficient application of our pair-wise [DeepDelta](https://github.com/RekerLab/DeepDelta) approach to larger datasets (>1500 datapoints). 
 
 The associated publication is currently under review. 
 
-We would like to thank the Chemprop, XGBoost, Llama, MolGan, SmilesGPT, Molecule-RNN, and the Scikit-learn developers for making their machine learning algorithms publicly available. 
-
-## Requirements
-* [RDKit](https://www.rdkit.org/docs/Install.html)
-* [scikit-learn](https://scikit-learn.org/stable/)
-* [numpy](https://numpy.org/)
-* [pandas](https://github.com/pandas-dev/pandas)
-
-Machine Learning Models
-* [Random Forest](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html)
-* [Chemprop v1.5.2](https://github.com/chemprop/chemprop)
-* [XGBoost](https://xgboost.readthedocs.io/en/stable/gpu/index.html)
-
-Given the larger size of delta datasets, we recommend using a GPU for significantly faster training.
-
-To use Chemprop with GPUs, you will need:
-* cuda >= 8.0
-* cuDNN
+We would like to thank the [Chemprop](https://github.com/chemprop/chemprop), [Llama](https://github.com/unslothai/unsloth), [Molecule-RNN](https://github.com/shiwentao00/Molecule-RNN), [SmilesGPT](https://github.com/sanjaradylov/smiles-gpt/tree/master), [MolGan](https://github.com/nicola-decao/MolGAN), and [Scikit-learn](https://github.com/scikit-learn/scikit-learn) developers for making their machine learning algorithms publicly available. 
 
 <br />
 
 
 ## Descriptions of Folders
+
+### DeepDelta_For_Large_Datasets
+
+Datasets, code, and results for subsampling strategies for efficient application of the pair-wise DeepDelta approach to larger datasets (>1500 datapoints).
 
 ### Exisiting_Prodrug_Analysis
 
@@ -40,11 +27,8 @@ Datasets, code worksheet, and results for the analysis of currently approved and
 
 Datasets, code worksheet, and results for the analysis of novel prodrugs designed using generative models (Figure 1).
 
-### DeepDelta_For_Large_Datasets
-
-Datasets and code for subsampling strategies for efficient application of the pair-wise DeepDelta approach to larger datasets (>1500 datapoints).
-
 <br />
+
 
 
 
