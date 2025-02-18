@@ -42,7 +42,7 @@ Datasets, code worksheet, and results for the analysis of novel prodrugs designe
 
 ### DeepDelta_For_Large_Datasets
 
-Datasets and code for subsampling strategies for efficient application of the pair-wise DeepDelta approach to larger datasets (>1500 datapoints).
+Datasets, code, and results for subsampling strategies for efficient application of the pair-wise DeepDelta approach to larger datasets (>1500 datapoints).
 
 <br />
 
