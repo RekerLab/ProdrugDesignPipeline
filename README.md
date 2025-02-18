@@ -15,6 +15,10 @@ We would like to thank the [Chemprop v1.5.2](https://github.com/chemprop/chempro
 
 ## Descriptions of Folders
 
+### DeepDelta_For_Large_Datasets
+
+Datasets, code, and results for subsampling strategies for efficient application of the pair-wise DeepDelta approach to larger datasets (>1500 datapoints).
+
 ### Exisiting_Prodrug_Analysis
 
 Datasets, code worksheet, and results for the analysis of currently approved and investigational prodrugs (Supplementary Figure 1).
@@ -23,11 +27,8 @@ Datasets, code worksheet, and results for the analysis of currently approved and
 
 Datasets, code worksheet, and results for the analysis of novel prodrugs designed using generative models (Figure 1).
 
-### DeepDelta_For_Large_Datasets
-
-Datasets, code, and results for subsampling strategies for efficient application of the pair-wise DeepDelta approach to larger datasets (>1500 datapoints).
-
 <br />
+
 
 
 
