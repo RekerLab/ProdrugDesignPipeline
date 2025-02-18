@@ -8,24 +8,7 @@ Prodrugs are easily deployable chemical entities with beneficial pharmacokinetic
 
 The associated publication is currently under review. 
 
-We would like to thank the Chemprop, XGBoost, Llama, MolGan, SmilesGPT, Molecule-RNN, and the Scikit-learn developers for making their machine learning algorithms publicly available. 
-
-## Requirements
-* [RDKit](https://www.rdkit.org/docs/Install.html)
-* [scikit-learn](https://scikit-learn.org/stable/)
-* [numpy](https://numpy.org/)
-* [pandas](https://github.com/pandas-dev/pandas)
-
-Machine Learning Models
-* [Random Forest](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html)
-* [Chemprop v1.5.2](https://github.com/chemprop/chemprop)
-* [XGBoost](https://xgboost.readthedocs.io/en/stable/gpu/index.html)
-
-Given the larger size of delta datasets, we recommend using a GPU for significantly faster training.
-
-To use Chemprop with GPUs, you will need:
-* cuda >= 8.0
-* cuDNN
+We would like to thank the [Chemprop v1.5.2](https://github.com/chemprop/chemprop), [Llama](https://github.com/unslothai/unsloth), [Molecule-RNN](https://github.com/shiwentao00/Molecule-RNN), [SmilesGPT](https://github.com/sanjaradylov/smiles-gpt/tree/master), [MolGan](https://github.com/nicola-decao/MolGAN), and [Scikit-learn](https://github.com/scikit-learn/scikit-learn) developers for making their machine learning algorithms publicly available. 
 
 <br />
 
