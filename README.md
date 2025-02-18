@@ -15,7 +15,7 @@ We would like to thank the [Chemprop](https://github.com/chemprop/chemprop), [Ll
 
 ## Descriptions of Folders
 
-### DeepDelta_For_Large_Datasets
+### DeepDelta_Subsampling
 
 Datasets, code, and results for subsampling strategies for efficient application of the pair-wise DeepDelta approach to larger datasets (>1500 datapoints).
 
