@@ -1,0 +1,44 @@
+Prodrug_Name,Prodrug_SMILES,API_Name,API_SMILES,Design_Goal,Linkage,API_Group,Note 
+carindacillin,CC1([C@@H](N2[C@H](S1)[C@@H](C2=O)NC(=O)C(C3=CC=CC=C3)C(=O)OC4=CC5=C(CCC5)C=C4)C(=O)O)C,Carbenicillin,CC1([C@@H](N2[C@H](S1)[C@@H](C2=O)NC(=O)C(C3=CC=CC=C3)C(=O)O)C(=O)O)C,Lipo,Ester,Carboxylic Acid,
+dipivefrin,CNCC(O)c1ccc(OC(=O)C(C)(C)C)c(OC(=O)C(C)(C)C)c1,epinephrine,CNCC(O)c1ccc(O)c(O)c1,Lipo,Ester,Alcohol,
+bacampicillin,CCOC(=O)OC(C)OC(=O)[C@@H]1N2C(=O)[C@@H](NC(=O)[C@H](N)c3ccccc3)[C@H]2SC1(C)C,ampicillin,CC1(C)S[C@@H]2[C@H](NC(=O)[C@H](N)c3ccccc3)C(=O)N2[C@H]1C(=O)O,Lipo,Ester,Carboxylic Acid,
+fluphenazine decanoate,CCCCCCCCCC(=O)OCCN1CCN(CCCN2c3ccccc3Sc3ccc(C(F)(F)F)cc32)CC1,fluphenazine,OCCN1CCN(CCCN2c3ccccc3Sc3ccc(C(F)(F)F)cc32)CC1,Lipo,Ester,Alcohol,
+enalapril,CCOC(=O)[C@H](CCc1ccccc1)N[C@@H](C)C(=O)N1CCC[C@H]1C(=O)O,enalaprilat,C[C@H](N[C@@H](CCc1ccccc1)C(=O)O)C(=O)N1CCC[C@H]1C(=O)O,Lipo,Ester,Carboxylic Acid,
+cefuroxime axetil,CC(OC(=O)C)OC(=O)C1=C(CSC2N1C(=O)C2NC(=O)C(=NOC)C3=CC=CO3)COC(=O)N,Cefuroxime,CON=C(C1=CC=CO1)C(=O)NC2C3N(C2=O)C(=C(CS3)COC(=O)N)C(=O)O,Lipo,Ester,Carboxylic Acid,
+benazepril,CCOC(=O)[C@H](CCc1ccccc1)N[C@H]1CCc2ccccc2N(CC(=O)O)C1=O,benazeprilat,O=C(O)CN1C(=O)[C@@H](N[C@@H](CCc2ccccc2)C(=O)O)CCc2ccccc21,Lipo,Ester,Carboxylic Acid,
+simvastatin,CCC(C)(C)C(=O)O[C@H]1C[C@H](C=C2[C@H]1[C@H]([C@H](C=C2)C)CC[C@@H]3C[C@H](CC(=O)O3)O)C,Simvastatin hydroxyacid,CCC(C)(C)C(=O)O[C@H]1C[C@H](C=C2[C@H]1[C@H]([C@H](C=C2)C)CC[C@H](C[C@H](CC(=O)O)O)O)C,Lipo,Ester,Carboxylic Acid,
+fosinopril,CCC(=O)OC(OP(=O)(CCCCc1ccccc1)CC(=O)N1C[C@H](C2CCCCC2)C[C@H]1C(=O)O)C(C)C,fosinoprilat,O=C(O)[C@@H]1C[C@@H](C2CCCCC2)CN1C(=O)CP(=O)(O)CCCCc1ccccc1,Lipo,Phosphate,Phosphate,
+quinapril,CCOC(=O)[C@H](CCc1ccccc1)N[C@@H](C)C(=O)N1Cc2ccccc2C[C@H]1C(=O)O,quinaprilat,C[C@H](N[C@@H](CCc1ccccc1)C(=O)O)C(=O)N1Cc2ccccc2C[C@H]1C(=O)O,Lipo,Ester,Carboxylic Acid,
+ramipril,CCOC(=O)[C@H](CCc1ccccc1)N[C@@H](C)C(=O)N1[C@H](C(=O)O)C[C@@H]2CCC[C@@H]21,ramiprilat,C[C@H](N[C@@H](CCc1ccccc1)C(=O)O)C(=O)N1[C@H](C(=O)O)C[C@@H]2CCC[C@@H]21,Lipo,Ester,Carboxylic Acid,
+cefpodoxime proxetil,COCC1=C(C(=O)OC(C)OC(=O)OC(C)C)N2C(=O)[C@@H](NC(=O)/C(=N\OC)c3csc(N)n3)[C@H]2SC1,cefpodoxime,COCC1=C(C(=O)O)N2C(=O)[C@@H](NC(=O)/C(=N\OC)c3csc(N)n3)[C@H]2SC1,Lipo,Ester,Carboxylic Acid,
+perindopril,CCC[C@@H](C(=O)OCC)N[C@@H](C)C(=O)N1[C@H]2CCCC[C@H]2C[C@H]1C(=O)O,Perindoprilat,CCC[C@@H](C(=O)O)N[C@@H](C)C(=O)N1[C@H]2CCCC[C@H]2C[C@H]1C(=O)O,Lipo,Ester,Carboxylic Acid,
+fenofibrate,CC(C)OC(=O)C(C)(C)OC1=CC=C(C=C1)C(=O)C2=CC=C(C=C2)Cl,Fenofibric Acid,CC(C)(C(=O)O)OC1=CC=C(C=C1)C(=O)C2=CC=C(C=C2)Cl,Lipo,Ester,Carboxylic Acid,
+spirapril,CCOC(=O)[C@H](CCc1ccccc1)N[C@@H](C)C(=O)N1CC2(C[C@H]1C(=O)O)SCCS2,spiraprilat,C[C@H](N[C@@H](CCc1ccccc1)C(=O)O)C(=O)N1CC2(C[C@H]1C(=O)O)SCCS2,Lipo,Ester,Carboxylic Acid,
+famciclovir,CC(=O)OCC(CCn1cnc2cnc(N)nc21)COC(C)=O,penciclovir triphosphate,OCC(CO)CCN1C(N=C(N)NC2=O)=C2N=C1,Lipo,Ester,Carboxylic Acid,Removed Phosphates
+moexipril,CCOC(=O)[C@H](CCC1=CC=CC=C1)N[C@@H](C)C(=O)N2CC3=CC(=C(C=C3C[C@H]2C(=O)O)OC)OC,Moexiprilat,C[C@@H](C(=O)N1CC2=CC(=C(C=C2C[C@H]1C(=O)O)OC)OC)N[C@@H](CCC3=CC=CC=C3)C(=O)O,Lipo,Ester,Carboxylic Acid,
+trandolapril,CCOC(=O)[C@H](CCc1ccccc1)N[C@@H](C)C(=O)N1[C@H](C(=O)O)C[C@H]2CCCC[C@@H]21,trandolaprilat,C[C@H](N[C@@H](CCc1ccccc1)C(=O)O)C(=O)N1[C@H](C(=O)O)C[C@H]2CCCC[C@@H]21,Lipo,Ester,Carboxylic Acid,
+candesartan cilexetil,CCOC1=NC2=CC=CC(=C2N1CC3=CC=C(C=C3)C4=CC=CC=C4C5=NNN=N5)C(=O)OC(C)OC(=O)OC6CCCCC6,Candesartan,CCOC1=NC2=CC=CC(=C2N1CC3=CC=C(C=C3)C4=CC=CC=C4C5=NNN=N5)C(=O)O,Lipo,Ester,Carboxylic Acid,
+oseltamivir,CCOC(=O)C1=C[C@@H](OC(CC)CC)[C@H](NC(C)=O)[C@@H](N)C1,oseltamivir acid,CCC(CC)O[C@@H]1C=C(C(=O)O)C[C@H](N)[C@H]1NC(C)=O,Lipo,Ester,Carboxylic Acid,
+travoprost,CC(C)OC(=O)CCC/C=C\C[C@H]1[C@@H](O)C[C@@H](O)[C@@H]1/C=C/[C@@H](O)COc1cccc(C(F)(F)F)c1,fluprostenol,O=C(O)CCC/C=C\C[C@H]1[C@@H](O)C[C@@H](O)[C@@H]1/C=C/[C@@H](O)COc1cccc(C(F)(F)F)c1,Lipo,Ester,Carboxylic Acid,
+fingolimod,CCCCCCCCc1ccc(CCC(N)(CO)CO)cc1,fingolimod-phosphate,CCCCCCCCC1=CC=C(CCC(CO)(CO)N)C=C1,Lipo,Ester,Alcohol,Removed Phosphate
+dabigatran etexilate,CCCCCCOC(=O)/N=C(/N)c1ccc(NCc2nc3cc(C(=O)N(CCC(=O)OCC)c4ccccn4)ccc3n2C)cc1,dabigatran,Cn1c(CNc2ccc(C(=N)N)cc2)nc2cc(C(=O)N(CCC(=O)O)c3ccccn3)ccc21,Lipo,Ester,Carboxylic Acid,
+abiraterone acetate,CC(=O)O[C@H]1CC[C@@]2(C)C(=CC[C@H]3[C@@H]4CC=C(c5cccnc5)[C@@]4(C)CC[C@@H]32)C1,abiraterone,C[C@]12CC[C@H]3[C@@H](CC=C4C[C@@H](O)CC[C@@]43C)[C@@H]1CC=C2c1cccnc1,Lipo,Ester,Alcohol,
+tafluprost,CC(C)OC(=O)CCCC=CCC1C(CC(C1C=CC(COC2=CC=CC=C2)(F)F)O)O,Tafluprost acid,C1C(C(C(C1O)C=CC(COC2=CC=CC=C2)(F)F)CC=CCCCC(=O)O)O,Lipo,Ester,Carboxylic Acid,
+eslicarbazepine acetate,CC(=O)O[C@H]1CC2=CC=CC=C2N(C3=CC=CC=C13)C(=O)N,Eslicarbazepine,C1[C@@H](C2=CC=CC=C2N(C3=CC=CC=C31)C(=O)N)O,Lipo,Ester,Alcohol,
+dimethyl fumarate,COC(=O)C=CC(=O)OC,Monomethyl fumarate,COC(=O)C=CC(=O)O,Lipo,Ester,Carboxylic Acid,
+ravicti,C1=CC=C(C=C1)CCCC(=O)OCC(COC(=O)CCCC2=CC=CC=C2)OC(=O)CCCC3=CC=CC=C3,4-Phenylbutyric acid,C1=CC=C(C=C1)CCCC(=O)O,Lipo,Ester,Carboxylic Acid,
+tenofovir alafenamide,CC(C)OC(=O)[C@H](C)N[P@](=O)(CO[C@H](C)Cn1cnc2c(N)ncnc21)Oc1ccccc1,tenofovir,C[C@H](Cn1cnc2c(N)ncnc21)OCP(=O)(O)O,Lipo,Phosphate,Phosphate,
+aripiprazole lauroxil,CCCCCCCCCCCC(=O)OCN1C(=O)CCc2ccc(OCCCCN3CCN(c4cccc(Cl)c4Cl)CC3)cc21,aripiprazole,OCN1C(CCC2=C1C=C(OCCCCN3CCN(CC3)C4=C(Cl)C(Cl)=CC=C4)C=C2)=O,Lipo,Ester,Alcohol,Added connector
+prednisolone phosphate,C[C@]12C[C@H](O)[C@H]3[C@@H](CCC4=CC(=O)C=C[C@@]43C)[C@@H]1CC[C@]2(O)C(=O)COP(=O)(O)O,prednisolone,C[C@]12C[C@H](O)[C@H]3[C@@H](CCC4=CC(C=C[C@@]43C)=O)[C@@H]1CC[C@]2(O)C(CO)=O,Sol,Ester,Carboxylic Acid,
+sulindac,CC1=C(CC(=O)O)c2cc(F)ccc2/C1=C\c1ccc(S(C)=O)cc1,Sulindac sulfide,CSc1ccc(/C=C2/C(C)=C(CC(=O)O)c3cc(F)ccc32)cc1,Sol,Ester,Carboxylic Acid,
+estramustine phosphate,C[C@]12CC[C@H]3[C@H]([C@@H]1CC[C@@H]2OP(=O)(O)O)CCC4=C3C=CC(=C4)OC(=O)N(CCCl)CCCl,Estramustine,CC12CCC3C(C1CCC2O)CCC4=C3C=CC(=C4)OC(=O)N(CCCl)CCCl,Sol,Ester,Alcohol,
+fludarabine phosphate,C1=NC2=C(N=C(N=C2N1[C@H]3[C@H]([C@@H]([C@H](O3)COP(=O)(O)O)O)O)F)N,Fludarabine,C1=NC2=C(N=C(N=C2N1[C@H]3[C@H]([C@@H]([C@H](O3)CO)O)O)F)N,Sol,Ester,Alcohol,
+fosphenytoin,C1=CC=C(C=C1)C2(C(=O)N(C(=O)N2)COP(=O)(O)O)C3=CC=CC=C3,Phenytoin,O=C(N(CO)C(N1)=O)C1(C2=CC=CC=C2)C3=CC=CC=C3,Sol,Ester,Alcohol,Added connector
+irinotecan,CCc1c2c(nc3ccc(OC(=O)N4CCC(N5CCCCC5)CC4)cc13)-c1cc3c(c(=O)n1C2)COC(=O)[C@]3(O)CC,SN-38,CCc1c2c(nc3ccc(O)cc13)-c1cc3c(c(=O)n1C2)COC(=O)[C@]3(O)CC,Sol,Ester,Alcohol,
+fosamprenavir,CC(C)CN(C[C@@H](OP(=O)(O)O)[C@H](Cc1ccccc1)NC(=O)O[C@H]1CCOC1)S(=O)(=O)c1ccc(N)cc1,amprenavir,CC(C)CN(C[C@@H](O)[C@H](Cc1ccccc1)NC(=O)O[C@H]1CCOC1)S(=O)(=O)c1ccc(N)cc1,Sol,Ester,Alcohol,
+fospropofol disodium,CC(C)C1=C(C(=CC=C1)C(C)C)OCOP(=O)([O-])[O-].[Na+].[Na+],Propofol,CC(C)C1=C(C(=CC=C1)C(C)C)O,Sol,Ester,Alcohol,
+fosaprepitant,C[C@@H](O[C@H]1OCCN(Cc2nn(P(=O)(O)O)c(=O)[nH]2)[C@H]1c1ccc(F)cc1)c1cc(C(F)(F)F)cc(C(F)(F)F)c1,aprepitant,C[C@H](C1=CC(C(F)(F)F)=CC(C(F)(F)F)=C1)O[C@H]2OCCN([C@H]2C3=CC=C(F)C=C3)CC4=NN(C(N4)=O)CO,Sol,Ester,Alcohol,Added connector
+ceftaroline fosamil,CCO/N=C(\C(=O)N[C@@H]1C(=O)N2C(C(=O)[O-])=C(Sc3nc(-c4cc[n+](C)cc4)cs3)CS[C@H]12)c1nsc(NP(=O)(O)O)n1,ceftaroline,CCO/N=C(C1=NSC(NCO)=N1)\C(N[C@@H]2C(N3C(C([O-])=O)=C(CS[C@H]23)SC4=NC(C5=CC=[N+](C)C=C5)=CS4)=O)=O,Sol,Ester,Alcohol,Added connector
+tedizolid phosphate,Cn1nnc(-c2ccc(-c3ccc(N4C[C@H](COP(=O)(O)O)OC4=O)cc3F)cn2)n1,tedizolid,Cn1nnc(-c2ccc(-c3ccc(N4C[C@H](CO)OC4=O)cc3F)cn2)n1,Sol,Ester,Alcohol,
+fosnetupitant,CC1=CC=CC=C1C2=CC(=NC=C2N(C)C(=O)C(C)(C)C3=CC(=CC(=C3)C(F)(F)F)C(F)(F)F)N4CC[N+](CC4)(C)COP(=O)(O)[O-],Netupitant,CC1=CC=CC=C1C2=CC(N3CC[N+](C)(CO)CC3)=NC=C2N(C(C(C)(C4=CC(C(F)(F)F)=CC(C(F)(F)F)=C4)C)=O)C,Sol,Ester,Alcohol,Added connector
+fostemsavir,CC1=NN(C=N1)C2=NC=C(C3=C2N(C=C3C(=O)C(=O)N4CCN(CC4)C(=O)C5=CC=CC=C5)COP(=O)(O)O)OC,Temsavir,CC1=NN(C2=NC=C(OC)C3=C2N(CO)C=C3C(C(N4CCN(C(C5=CC=CC=C5)=O)CC4)=O)=O)C=N1,Sol,Ester,Alcohol,Added connector
