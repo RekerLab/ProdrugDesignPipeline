@@ -17,7 +17,7 @@ We would like to thank the [Chemprop](https://github.com/chemprop/chemprop), [Ll
 
 ### DeepDelta_Subsampling
 
-Datasets, code, and results for subsampling strategies for efficient application of the pair-wise DeepDelta approach to larger datasets (>1500 datapoints).
+Datasets and code for subsampling strategies for efficient application of the pair-wise DeepDelta approach to larger datasets (>1500 datapoints). Due to the large file size of results, these are stored on [Zenodo](https://zenodo.org/records/14894034): 10.5281/zenodo.14894034.
 
 ### Exisiting_Prodrug_Analysis
 
