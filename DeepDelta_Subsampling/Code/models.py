@@ -394,7 +394,10 @@ class DeepDelta_SubsampleOursSimilar(abstractDeltaModel):
         x.reset_index(drop=True,inplace = True)
         y.reset_index(drop=True,inplace = True)
 
-        num_pairs = math.floor(1000000 / len(x))
+        if len(x) > 1000: # Dataset is large enough for subsampling
+            num_pairs = math.floor(1000000 / len(x))
+        else: # Dataset is small enough to not need subsampling
+            num_pairs = len(x)
 
         for i in range(len(x)):
             x_current = pd.DataFrame([x[i]])
@@ -526,7 +529,10 @@ class DeepDelta_SubsampleOursRandom(abstractDeltaModel):
         x.reset_index(drop=True,inplace = True)
         y.reset_index(drop=True,inplace = True)
 
-        num_pairs = math.floor(1000000 / len(x))
+        if len(x) > 1000: # Dataset is large enough for subsampling
+            num_pairs = math.floor(1000000 / len(x))
+        else: # Dataset is small enough to not need subsampling
+            num_pairs = len(x)
 
         for i in range(len(x)):
             x_current = pd.DataFrame([x[i]])
