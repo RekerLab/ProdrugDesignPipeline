@@ -397,7 +397,7 @@ class DeepDelta_SubsampleOursSimilar(abstractDeltaModel):
         if len(x) > 1000: # Dataset is large enough for subsampling
             num_pairs = math.floor(1000000 / len(x))
         else: # Dataset is small enough to not need subsampling
-            num_pairs = len(x)
+            num_pairs = len(x) - 1
 
         for i in range(len(x)):
             x_current = pd.DataFrame([x[i]])
@@ -532,7 +532,7 @@ class DeepDelta_SubsampleOursRandom(abstractDeltaModel):
         if len(x) > 1000: # Dataset is large enough for subsampling
             num_pairs = math.floor(1000000 / len(x))
         else: # Dataset is small enough to not need subsampling
-            num_pairs = len(x)
+            num_pairs = len(x) - 1
 
         for i in range(len(x)):
             x_current = pd.DataFrame([x[i]])
