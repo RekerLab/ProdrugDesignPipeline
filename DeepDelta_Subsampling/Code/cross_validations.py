@@ -43,7 +43,7 @@ def cross_validation_file(data_path, prop, model, k=10, seed=1): # Cross-validat
 
 small_benchmarks = ['FUBrain', 'RenClear', 'FreeSolv', 'MicroClear', 'HemoTox', 'HepClear', 'Caco2', 'Sol', 'VDss', 'HalfLife']
 large_benchmarks = ['AqSol', 'BiogenSol', 'HLM', 'LD50', 'Lipophilicity', 'MDR1-MDCK', 'PPB', 'RLM']
-models = [DeepDelta(), DeepDelta_SubsampleSimilar1(), DeepDelta_Subsample50(), DeepDelta_SubsampleOursSimilar(), DeepDelta_SubsampleOursRandom()]
+models = [DeepDelta(), DeepDelta_SubsampleSimilar1(), DeepDelta_Subsample50(), DeepDelta_SubsampleOursSimilar(), DeepDelta_SubsampleOursRandom(), Trad_RF(), Trad_ChemProp(), Trad_XGBoost()]
 
 for model in models:
     for benchmark in small_benchmarks:
