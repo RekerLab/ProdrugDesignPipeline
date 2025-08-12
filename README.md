@@ -1,5 +1,5 @@
 
-![AIForProdrugDesign](https://github.com/user-attachments/assets/5b27f14f-43de-4843-944b-9ad0d9690fab)
+<img width="6180" height="1440" alt="AIForProdrugDesign" src="https://github.com/user-attachments/assets/ade6ada3-cc3a-4dd3-8ec6-08db3832d554" />
 
 ## Overview
 
