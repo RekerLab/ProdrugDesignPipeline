@@ -1,6 +1,5 @@
 
-![Pipeline](https://github.com/user-attachments/assets/a51ca38c-c742-48de-8f9d-36cacd721959)
-
+<img width="6180" height="1440" alt="AIForProdrugDesign" src="https://github.com/user-attachments/assets/ade6ada3-cc3a-4dd3-8ec6-08db3832d554" />
 
 ## Overview
 
