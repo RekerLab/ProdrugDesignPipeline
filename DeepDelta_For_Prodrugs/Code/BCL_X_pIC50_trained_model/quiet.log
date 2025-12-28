@@ -1,0 +1,8 @@
+Fold 0
+Model 0 best validation r2 = -inf on epoch 4
+Model 0 provided with no test set, no metric evaluation will be performed.
+Ensemble test r2 = nan
+1-fold cross validation
+	Seed 0 ==> test r2 = nan
+Overall test r2 = nan +/- nan
+Elapsed time = 2:21:35
