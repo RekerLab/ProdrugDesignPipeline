@@ -32,7 +32,7 @@ Datasets, code worksheet, and results for the analysis of novel prodrugs designe
 
 <br />
 
-Due to the large file size of the files for generated prodrugs, these are stored on [Zenodo](https://zenodo.org/records/14894034): 10.5281/zenodo.14894034.
+Due to the large file size of the files for generated prodrugs, these are stored on [Zenodo](https://zenodo.org/records/18079221): 10.5281/zenodo.18079221.
 
 
 ## License
