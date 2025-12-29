@@ -16,7 +16,7 @@ We would like to thank the [Chemprop](https://github.com/chemprop/chemprop), [Ll
 
 ### DeepDelta_for_Prodrugs
 
-Datasets, saved models, and code for applying DeepDelta for two example prodrugs.
+Datasets, saved models, and code for applying DeepDelta for two example prodrugs. Due to the large file size of the files for generated prodrugs, these are stored on [Zenodo](https://zenodo.org/records/18079221): 10.5281/zenodo.18079221, but truncated versions are presented here. 
 
 ### DeepDelta_Subsampling
 
@@ -36,9 +36,7 @@ Datasets, code worksheet, and results for the analysis of novel prodrugs designe
 
 <br />
 
-Due to the large file size of the files for generated prodrugs, these are stored on [Zenodo](https://zenodo.org/records/18079221): 10.5281/zenodo.18079221.
 
-<br />
 
 ## License
 
