@@ -7,7 +7,7 @@ Prodrugs are easily deployable chemical entities with beneficial pharmacokinetic
 
 The associated publication is currently under review. 
 
-We would like to thank the [Chemprop](https://github.com/chemprop/chemprop), [Llama](https://github.com/unslothai/unsloth), [Molecule-RNN](https://github.com/shiwentao00/Molecule-RNN), [SmilesGPT](https://github.com/sanjaradylov/smiles-gpt/tree/master), [MolGan](https://github.com/nicola-decao/MolGAN), and [Scikit-learn](https://github.com/scikit-learn/scikit-learn) developers for making their machine learning algorithms publicly available. 
+We would like to thank the [Chemprop](https://github.com/chemprop/chemprop), [Llama](https://github.com/unslothai/unsloth), [Molecule-RNN](https://github.com/shiwentao00/Molecule-RNN), [SmilesGPT](https://github.com/sanjaradylov/smiles-gpt/tree/master), [MolGan](https://github.com/nicola-decao/MolGAN),  [Scikit-learn](https://github.com/scikit-learn/scikit-learn), and [Aspuru-Guzik group](https://github.com/aspuru-guzik-group/chemical_vae) developers for making their machine learning algorithms publicly available. 
 
 <br />
 
@@ -25,6 +25,10 @@ Datasets and code for subsampling strategies for efficient application of the pa
 ### Exisiting_Prodrug_Analysis
 
 Datasets, code worksheet, and results for the analysis of currently approved and investigational prodrugs (Supplementary Figure 1).
+
+### Generative_Models
+
+Datasets and code worksheets for the generative models based on [Molecule-RNN](https://github.com/shiwentao00/Molecule-RNN) for the GRU and LSTM, [SmilesGPT](https://github.com/sanjaradylov/smiles-gpt/tree/master) for the GPT, [MolGan](https://github.com/nicola-decao/MolGAN) for the GAN, and [Scikit-learn](https://github.com/scikit-learn/scikit-learn) and [Aspuru-Guzik group](https://github.com/aspuru-guzik-group/chemical_vae) for the VAE. Please refer to [Llama](https://github.com/unslothai/unsloth) for the LLM.
 
 ### Generative_Prodrug_Analysis
 
