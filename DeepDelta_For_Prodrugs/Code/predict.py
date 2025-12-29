@@ -120,18 +120,18 @@ class DeepDelta(abstractDeltaModel):
     def __str__(self):
         return "DeepDelta" + str(self.epochs)
 
-#########################
-## Cefuroxime Prodrugs ##
-#########################
+#################################
+## Cefuroxime Prodrugs Example ##
+#################################
 
-external_datasets = ['Cefuroxime_Generative_Products_All']
+external_datasets = ['Cefuroxime_Generative_Products_Example']
 properties = ['Caco2', 'B_Theta_MIC90']
 API = 'CO/N=C(/C1=CC=CO1)\C(=O)N[C@H]2[C@@H]3N(C2=O)C(=C(CS3)COC(=O)N)C(=O)O'
 model = DeepDelta()
 
 for external_dataset in external_datasets:
     for prop in properties:
-        pred_dataset = pd.read_csv('../../Generated_Prodrugs/Cefuroxime_Prodrugs/{}.csv'.format(external_dataset)) 
+        pred_dataset = pd.read_csv('../Results/{}.csv'.format(external_dataset)) 
         pred_dataset['API'] = API
         pred_x = pred_dataset[['API', 'SMILES']]
         predictions = model.predict_as_is(pred_x, prop)
@@ -144,14 +144,14 @@ for external_dataset in external_datasets:
 ## A-1331852 Prodrugs ##
 ########################
 
-external_datasets = ['A-1331852_Generative_Products_All']
+external_datasets = ['A-1331852_Generative_Products_Example']
 properties = ['BCL_X_pIC50', 'Lipophilicity']
 API = 'O=C(O)C1=NC(N2CC3=C(CC2)C=CC=C3C(NC4=NC5=CC=CC=C5S4)=O)=CC=C1C6=C(N(N=C6)CC78CC(CC(C8)C9)CC9C7)C'
 model = DeepDelta()
 
 for external_dataset in external_datasets:
     for prop in properties:
-        pred_dataset = pd.read_csv('../../Generated_Prodrugs/A-1331852_Prodrugs/{}.csv'.format(external_dataset)) 
+        pred_dataset = pd.read_csv('../Results/{}.csv'.format(external_dataset)) 
         pred_dataset['API'] = API
         pred_x = pred_dataset[['API', 'SMILES']]
         predictions = model.predict_as_is(pred_x, prop)
