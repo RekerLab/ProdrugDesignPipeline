@@ -131,7 +131,7 @@ model = DeepDelta()
 
 for external_dataset in external_datasets:
     for prop in properties:
-        pred_dataset = pd.read_csv('../Results/{}.csv'.format(external_dataset)) 
+        pred_dataset = pd.read_csv('../Datasets/{}.csv'.format(external_dataset)) 
         pred_dataset['API'] = API
         pred_x = pred_dataset[['API', 'SMILES']]
         predictions = model.predict_as_is(pred_x, prop)
@@ -151,7 +151,7 @@ model = DeepDelta()
 
 for external_dataset in external_datasets:
     for prop in properties:
-        pred_dataset = pd.read_csv('../Results/{}.csv'.format(external_dataset)) 
+        pred_dataset = pd.read_csv('../Datasets/{}.csv'.format(external_dataset)) 
         pred_dataset['API'] = API
         pred_x = pred_dataset[['API', 'SMILES']]
         predictions = model.predict_as_is(pred_x, prop)
