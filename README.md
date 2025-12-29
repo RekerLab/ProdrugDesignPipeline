@@ -22,7 +22,7 @@ Datasets, saved models, and code for applying DeepDelta for two example prodrugs
 
 Datasets and code for subsampling strategies for efficient application of the pair-wise DeepDelta approach to larger datasets (>1500 datapoints). Due to the large file size of results, these are stored on [Zenodo](https://zenodo.org/records/14894034): 10.5281/zenodo.14894034.
 
-### Exisiting_Prodrug_Analysis
+### Existing_Prodrug_Analysis
 
 Datasets, code worksheet, and results for the analysis of currently approved and investigational prodrugs (Supplementary Figure 1).
 
