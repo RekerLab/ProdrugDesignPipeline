@@ -24,7 +24,7 @@ Datasets and code for subsampling strategies for efficient application of the pa
 
 ### Existing_Prodrug_Analysis
 
-Datasets, code, and results for the analysis of currently approved and investigational prodrugs (Supplementary Figure 1).
+Datasets, code, and results for the analysis of currently approved and investigational prodrugs (Figure S1).
 
 ### Generative_Models
 
