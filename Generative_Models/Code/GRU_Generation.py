@@ -19,6 +19,9 @@ from keras.layers import Dropout
 from keras.layers import LSTM
 from keras.callbacks import ModelCheckpoint
 
+
+
+
 ################################################################################
 ## RNN-based Generation of Promoieties Directly onto Starting Drug Structures ##
 ################################################################################
@@ -30,6 +33,9 @@ batch_size = 2048 # Default 2048, input number 1 or greater
 num_batches = 20 # Default 20, input number 1 or greater
 dataset_dir = './Molecule-RNN-main/dataset/PurchasableFragments.smi' # PurchasableFragments is the training data used for promoiety generation
 vocab_path = './Molecule-RNN-main/vocab/selfies_merged_vocab.yaml' # selfies_merged_vocab is the associated vocabulary used for promoiety generation
+
+# Prepare associated zip folder for base model 'Molecule-RNN-main.zip' 
+!unzip -o ./Molecule-RNN-main > /dev/null # Possibly adjust pathway based on folder location
 
 with open('Molecule-RNN-main/train.yaml') as f: # Possibly adjust pathway based on folder location
   list_doc = yaml.safe_load(f)
@@ -66,7 +72,6 @@ with open('/content/Molecule-RNN-main/train.yaml') as f:
         print('This is not a valid SMILES code; try again.')
         continue
         
-
 # Model Training
 !python ./Molecule-RNN-main/train.py
 
