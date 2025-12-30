@@ -24,15 +24,15 @@ Datasets and code for subsampling strategies for efficient application of the pa
 
 ### Existing_Prodrug_Analysis
 
-Datasets, code worksheet, and results for the analysis of currently approved and investigational prodrugs (Supplementary Figure 1).
+Datasets, code, and results for the analysis of currently approved and investigational prodrugs (Supplementary Figure 1).
 
 ### Generative_Models
 
-Datasets and code worksheets for the generative models based on [Molecule-RNN](https://github.com/shiwentao00/Molecule-RNN) for the GRU and LSTM, [SmilesGPT](https://github.com/sanjaradylov/smiles-gpt/tree/master) for the GPT, [MolGan](https://github.com/nicola-decao/MolGAN) for the GAN, and [Scikit-learn](https://github.com/scikit-learn/scikit-learn) and [Chemical VAE](https://github.com/aspuru-guzik-group/chemical_vae) for the VAE. Please refer to the [Unsloth](https://github.com/unslothai/unsloth) implementation of [Llama 3.1](https://github.com/meta-llama/llama3) for the LLM.
+Datasets and code for generative models to directly build promoieties onto drug structures (based on [Molecule-RNN](https://github.com/shiwentao00/Molecule-RNN)).
 
 ### Generative_Prodrug_Analysis
 
-Datasets, code worksheet, and results for the analysis of novel prodrugs designed using generative models (Figure 1).
+Datasets, code, and results for the analysis of novel prodrugs designed using generative models (Figure 1).
 
 <br />
 
