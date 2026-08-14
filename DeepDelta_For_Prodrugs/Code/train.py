@@ -247,7 +247,7 @@ class DeepDelta_SubsampleOursRandom(abstractDeltaModel):
 properties = ['B_Theta_MIC90', 'BCL_X_pIC50', 'Caco2', 'Lipophilicity']
 
 for prop in properties:
-    dataset = '../Datasets{}.csv'.format(prop) # Training dataset
+    dataset = '../Datasets/{}.csv'.format(prop) # Training dataset
 
     # Fit model on entire training dataset
     df = pd.read_csv(dataset)

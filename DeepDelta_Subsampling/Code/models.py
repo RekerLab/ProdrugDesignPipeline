@@ -520,9 +520,9 @@ class DeepDelta_SubsampleOursRandom(abstractDeltaModel):
         self.dirpath = dirpath
 
 
-    def fit(self, x, y, prop, metric='r2'):
+    def fit(self, x, y, metric='r2'):
         
-        self.dirpath = "{}_trained_model".format(prop)
+        self.dirpath = tempfile.NamedTemporaryFile().name # use temporary file to store model
         
         # create pairs of training data - pair each with random datapoints
         train = pd.DataFrame()

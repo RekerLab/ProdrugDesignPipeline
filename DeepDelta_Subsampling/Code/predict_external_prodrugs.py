@@ -13,7 +13,7 @@ from models import *
 
 training_data = ['BCL-X-Regression-pIC50', 'Lipophilicity', 'Caco2', 'B-Theta-MIC90']
 external_data = ['Cefuroxime_Prodrugs_from_Approved_Promoieties', 'A133_Prodrugs_from_Approved_Promoieties'] 
-models = [DeepDelta_OurSubsampleRandom()] # Full list: [DeepDelta(), DeepDelta_SubsampleSimilar1(), DeepDelta_Subsample50(), DeepDelta_SubsampleOursSimilar(), DeepDelta_SubsampleOursRandom()]
+models = [DeepDelta_SubsampleOursRandom()] # Full list: [DeepDelta(), DeepDelta_SubsampleSimilar1(), DeepDelta_Subsample50(), DeepDelta_SubsampleOursSimilar(), DeepDelta_SubsampleOursRandom()]
 
 for model in models:
     for train in training_data:

@@ -49,14 +49,14 @@ for model in models:
     for benchmark in small_benchmarks:
         delta = pd.DataFrame(columns=['Pearson\'s r', 'MAE', 'RMSE']) # For storing results
         for i in range(5): # Allow for 5x10-fold cross validation
-            dataset = '../Datasets/Small_Benchmarks/{}.csv'.format(prop) # Training dataset
-            results = cross_validation_file(data_path=dataset, prop = prop, model=model, k=10, seed = i) # Run cross-validation
+            dataset = '../Datasets/Small_Benchmarks/{}.csv'.format(benchmark) # Training dataset
+            results = cross_validation_file(data_path=dataset, prop = benchmark, model=model, k=10, seed = i) # Run cross-validation
 
-            pd.DataFrame(results).to_csv("{}_{}_{}.csv".format(prop, str(model), i), index=False) # Save results
+            pd.DataFrame(results).to_csv("{}_{}_{}.csv".format(benchmark, str(model), i), index=False) # Save results
             # If you .T the dataframe, then the first column is ground truth, the second is predictions
 
             # Read saved dataframe to calculate statistics
-            df = pd.read_csv("{}_{}_{}.csv".format(prop, model, i)).T
+            df = pd.read_csv("{}_{}_{}.csv".format(benchmark, model, i)).T
             df.columns =['True', 'Delta']
             trues = df['True'].tolist()
             preds = df['Delta'].tolist() 
@@ -74,19 +74,19 @@ for model in models:
         delta = pd.concat([delta, average])
         delta = pd.concat([delta, std])
         delta = delta.set_index([pd.Index([1, 2, 3, 4, 5, 'Avg', 'Std. Dev.'])])
-        delta.to_csv("{}_{}_delta_scoring_small_benchmarks.csv".format(prop, model)) # Save data
+        delta.to_csv("{}_{}_delta_scoring_small_benchmarks.csv".format(benchmark, model)) # Save data
         
     for benchmark in large_benchmarks:
         delta = pd.DataFrame(columns=['Pearson\'s r', 'MAE', 'RMSE']) # For storing results
         for i in range(5): # Allow for 5x10-fold cross validation
-            dataset = '../Datasets/Large_Benchmarks/{}.csv'.format(prop) # Training dataset
-            results = cross_validation_file(data_path=dataset, prop = prop, model=model, k=10, seed = i) # Run cross-validation
+            dataset = '../Datasets/Large_Benchmarks/{}.csv'.format(benchmark) # Training dataset
+            results = cross_validation_file(data_path=dataset, prop = benchmark, model=model, k=10, seed = i) # Run cross-validation
 
-            pd.DataFrame(results).to_csv("{}_{}_{}.csv".format(prop, str(model), i), index=False) # Save results
+            pd.DataFrame(results).to_csv("{}_{}_{}.csv".format(benchmark, str(model), i), index=False) # Save results
             # If you .T the dataframe, then the first column is ground truth, the second is predictions
 
             # Read saved dataframe to calculate statistics
-            df = pd.read_csv("{}_{}_{}.csv".format(prop, model, i)).T
+            df = pd.read_csv("{}_{}_{}.csv".format(benchmark, model, i)).T
             df.columns =['True', 'Delta']
             trues = df['True'].tolist()
             preds = df['Delta'].tolist() 
@@ -104,5 +104,5 @@ for model in models:
         delta = pd.concat([delta, average])
         delta = pd.concat([delta, std])
         delta = delta.set_index([pd.Index([1, 2, 3, 4, 5, 'Avg', 'Std. Dev.'])])
-        delta.to_csv("{}_{}_delta_scoring_large_benchmarks.csv".format(prop, model)) # Save data
+        delta.to_csv("{}_{}_delta_scoring_large_benchmarks.csv".format(benchmark, model)) # Save data
 
