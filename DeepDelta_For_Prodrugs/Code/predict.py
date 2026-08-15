@@ -120,9 +120,37 @@ class DeepDelta(abstractDeltaModel):
     def __str__(self):
         return "DeepDelta" + str(self.epochs)
 
-#################################
-## Cefuroxime Prodrugs Example ##
-#################################
+###########################
+## FDA-approved Prodrugs ##
+###########################
+
+# Lipophilicity Testing
+model = DeepDelta()
+prop = 'Lipophilicity_no_prodrugs'
+external_dataset = 'LipoFDAApproved'
+
+pred_dataset = pd.read_csv('../Datasets/{}.csv'.format(external_dataset))
+pred_x = pred_dataset[['SMILES_A', 'SMILES_B']] 
+predictions = model.predict_as_is(pred_x, prop)
+pred_dataset['Pred_Y'] = predictions
+pred_dataset.to_csv('{}_{}.csv'.format (external_dataset, prop), index=False)
+        
+# Solubility Testing
+model = DeepDelta()
+prop = 'AqSol_no_prodrugs'
+external_dataset = 'SolFDAApproved'
+
+pred_dataset = pd.read_csv('../Datasets/{}.csv'.format(external_dataset))
+pred_x = pred_dataset[['SMILES_A', 'SMILES_B']] 
+predictions = model.predict_as_is(pred_x, prop)
+pred_dataset['Pred_Y'] = predictions
+pred_dataset.to_csv('{}_{}.csv'.format (external_dataset, prop), index=False)
+        
+        
+        
+#########################
+## Cefuroxime Prodrugs ##
+#########################
 
 external_datasets = ['Cefuroxime_Generative_Products_Example']
 properties = ['Caco2', 'B_Theta_MIC90']
