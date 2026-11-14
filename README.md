@@ -21,6 +21,10 @@ Datasets, saved models, and code for performance validation with FDA-approved pr
 
 Datasets and code for subsampling strategies for efficient application of the pair-wise DeepDelta approach to larger datasets (>1500 datapoints). Due to the large file size of results, these are stored on [Zenodo](https://zenodo.org/records/14894034): 10.5281/zenodo.14894034.
 
+### Demo
+
+Code to run a small scale version of predicting prodrug properties of designed prodrugs. 
+
 ### Existing_Prodrug_Analysis
 
 Datasets, code, and results for the analysis of currently approved and investigational prodrugs (Figure S1).
@@ -47,7 +51,7 @@ To use Chemprop with GPUs, you will need:
 * cuda >= 8.0
 * cuDNN
 
-The predictive models were implemented with the following dependencies:
+Predictive models were implemented with the following dependencies:
 
 Channels:
   - pytorch
@@ -76,8 +80,33 @@ Dependencies:
 
 <br />
 
+## Installation
+
+```
+git clone https://github.com/RekerLab/ProdrugDesignPipeline
+```
+
+An installation including all system requirements should take on the order of minutes for a "normal" desktop computer. 
+
+<br />
+
+## Demo
+
+A small dataset of the synthesized cefuroxime prodrugs is used to quickly demonstrate how to predict properties of designed prodrugs. To do so, run the python file within the code folder. Provided in the results folder, the expected result is two csv files, one for each property of interest, with the predicted values in an additional column ('Y'). This should take on the order of minutes for a "normal" desktop computer. 
+
+<br />
+
+## Instructions for Use
+
+Within each described folder, there are code, dataset, and results folders (unless the results are too larger and stored on Zenodo). To reproduce, run the code within the code folder. It will draw upon the folders in the dataset folder. The results are provided for reference. 
+
+<br />
+
 ## License
 
 The copyrights of the software are owned by Duke University. As such, two licenses for this software are offered:
 1. An open-source license under the GPLv2 license for non-commercial academic use.
 2. A custom license with Duke University, for commercial use or uses without the GPLv2 license restrictions. 
+
+
+
