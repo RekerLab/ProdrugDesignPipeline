@@ -47,7 +47,7 @@ To use Chemprop with GPUs, you will need:
 * cuda >= 8.0
 * cuDNN
 
-The predictive models have been tested with the following configurations.
+The predictive models were implemented with the following dependencies:
 
 Channels:
   - pytorch
