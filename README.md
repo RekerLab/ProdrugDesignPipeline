@@ -12,6 +12,21 @@ We would like to thank the [Chemprop](https://github.com/chemprop/chemprop), [Ll
 <br />
 
 
+## Requirements
+* [RDKit](https://www.rdkit.org/docs/Install.html)
+* [scikit-learn](https://scikit-learn.org/stable/)
+* [numpy](https://numpy.org/)
+* [pandas](https://github.com/pandas-dev/pandas)
+* [Chemprop v1.5.2](https://github.com/chemprop/chemprop)
+
+Given the larger size of delta datasets, we recommend using a GPU for significantly faster training.
+To use Chemprop with GPUs, you will need:
+* cuda >= 8.0
+* cuDNN
+
+<br />
+
+
 ## Descriptions of Folders
 
 ### DeepDelta_for_Prodrugs
