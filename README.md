@@ -3,29 +3,13 @@
 
 ## Overview
 
-Prodrugs are easily deployable chemical entities with beneficial pharmacokinetic properties; however, their rational design requires careful crafting of release mechanisms and holistic optimization of pharmacokinetic properties. Machine learning is poised to support rational design of prodrugs by efficiently filtering millions of generated designs down to the most promising candidates. Here, we designed and validated a novel machine learning pipeline for rapid and systematic design of prodrugs with desired properties. We also developed a subsampling approach for efficient application of our pair-wise [DeepDelta](https://github.com/RekerLab/DeepDelta) approach to larger datasets (>1500 datapoints). 
+Prodrugs are easily deployable chemical entities with beneficial pharmacokinetic properties; however, their rational design requires careful crafting of release mechanisms and holistic optimization of pharmacokinetic properties. Machine learning is poised to support rational design of prodrugs by efficiently filtering millions of generated designs down to the most promising candidates. Here, we designed and validated a novel machine learning pipeline for rapid and systematic design of prodrugs with desired properties. We also developed a subsampling approach for efficient application of our pair-wise [DeepDelta](https://github.com/RekerLab/DeepDelta) approach to larger datasets (>1500 datapoints) described and available here. 
 
 The associated publication is currently under review. 
 
 We would like to thank the [Chemprop](https://github.com/chemprop/chemprop), [Llama](https://github.com/meta-llama/llama3), [Unsloth](https://github.com/unslothai/unsloth), [Molecule-RNN](https://github.com/shiwentao00/Molecule-RNN), [SmilesGPT](https://github.com/sanjaradylov/smiles-gpt/tree/master), [MolGAN](https://github.com/nicola-decao/MolGAN),  [Scikit-learn](https://github.com/scikit-learn/scikit-learn), and [Chemical VAE](https://github.com/aspuru-guzik-group/chemical_vae) developers for making their code publicly available. 
 
 <br />
-
-
-## Requirements
-* [RDKit](https://www.rdkit.org/docs/Install.html)
-* [scikit-learn](https://scikit-learn.org/stable/)
-* [numpy](https://numpy.org/)
-* [pandas](https://github.com/pandas-dev/pandas)
-* [Chemprop v1.5.2](https://github.com/chemprop/chemprop)
-
-Given the larger size of delta datasets, we recommend using a GPU for significantly faster training.
-To use Chemprop with GPUs, you will need:
-* cuda >= 8.0
-* cuDNN
-
-<br />
-
 
 ## Descriptions of Folders
 
@@ -51,7 +35,46 @@ Datasets, code, and results for the analysis of novel prodrugs designed using ge
 
 <br />
 
+## System Requirements
+* [RDKit](https://www.rdkit.org/docs/Install.html)
+* [scikit-learn](https://scikit-learn.org/stable/)
+* [numpy](https://numpy.org/)
+* [pandas](https://github.com/pandas-dev/pandas)
+* [Chemprop v1.5.2](https://github.com/chemprop/chemprop)
 
+Given the larger size of delta datasets, we recommend using a GPU for significantly faster training.
+To use Chemprop with GPUs, you will need:
+* cuda >= 8.0
+* cuDNN
+
+The predictive models have been tested with the following configurations.
+
+Channels:
+  - pytorch
+  - conda-forge
+
+Dependencies:
+  - python>=3.7
+  - flask>=1.1.2
+  - gunicorn>=20.0.4
+  - hyperopt>=0.2.3
+  - matplotlib>=3.1.3
+  - numpy>=1.18.1
+  - pandas>=1.0.3
+  - pandas-flavor>=0.2.0
+  - pip>=20.0.2
+  - pytorch>=1.4.0
+  - rdkit>=2020.03.1.0
+  - scikit-learn>=0.22.2.post1
+  - scipy>=1.4.1
+  - tensorboardX>=2.0
+  - torchvision>=0.5.0
+  - tqdm>=4.45.0
+  - pip:
+    - typed-argument-parser>=1.6.1
+    - git+https://github.com/bp-kelley/descriptastorus
+
+<br />
 
 ## License
 
