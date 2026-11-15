@@ -25,6 +25,10 @@ Datasets and code for subsampling strategies for efficient application of the pa
 
 Code to run a small scale version of predicting prodrug properties of designed prodrugs. 
 
+### EnsembleSiameseProdrug
+
+Submodule link to metabolic model GitHub page. 
+
 ### Existing_Prodrug_Analysis
 
 Datasets, code, and results for the analysis of currently approved and investigational prodrugs (Figure S1).
