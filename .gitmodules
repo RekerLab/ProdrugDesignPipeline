@@ -1,0 +1,3 @@
+[submodule "EnsembleSiameseProdrug"]
+	path = EnsembleSiameseProdrug
+	url = https://github.com/RekerLab/EnsembleSiameseProdrug
