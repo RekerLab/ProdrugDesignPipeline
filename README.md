@@ -27,7 +27,7 @@ Code to run a small scale version of predicting prodrug properties of designed p
 
 ### EnsembleSiameseProdrug
 
-Submodule link to metabolic model GitHub page. 
+Link to GitHub page for metabolic models. 
 
 ### Existing_Prodrug_Analysis
 
